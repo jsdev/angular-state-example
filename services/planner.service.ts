@@ -19,20 +19,20 @@ export class PlannerService {
   private attractions: { [key: string]: string[] } = {
     'magic-kingdom': [
       'Space Mountain', 'Big Thunder Mountain', 'Splash Mountain', 
-      'Haunted Mansion', "It's a Small World", 'Pirates of the Caribbean'
+      'Haunted Mansion', "It\'s a Small World", 'Pirates of the Caribbean'
     ],
     'epcot': [
       'Soarin', 'Test Track', 'Mission: SPACE', 'Spaceship Earth', 
-      'Frozen Ever After', 'Remy's Ratatouille Adventure'
+      'Frozen Ever After', 'Remy\'s Ratatouille Adventure'
     ],
     'hollywood-studios': [
-      'The Twilight Zone Tower of Terror', 'Rock 'n' Roller Coaster', 
+      'The Twilight Zone Tower of Terror', 'Rock \'n\' Roller Coaster', 
       'Star Wars: Rise of the Resistance', 'Millennium Falcon: Smugglers Run', 
       'Slinky Dog Dash', 'Toy Story Mania!'
     ],
     'animal-kingdom': [
       'Avatar Flight of Passage', 'Expedition Everest', 'Kilimanjaro Safaris', 
-      'Dinosaur', 'Kali River Rapids', 'It's Tough to be a Bug!'
+      'Dinosaur', 'Kali River Rapids', 'It\'s Tough to be a Bug!'
     ]
   };
 
